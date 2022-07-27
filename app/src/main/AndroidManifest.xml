@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
-<!--http 도 접근이 가능하도록 만드는 것 -> android:usesCleartextTraffic="true" -->
+<!--http 도 접근이 가능하도록 만드는 것 -> android:usesCleartextTraffic="true"-->
     <application
         android:usesCleartextTraffic="true"
         android:allowBackup="true"
