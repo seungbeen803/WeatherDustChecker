@@ -99,6 +99,9 @@ class DustPageFragment : Fragment() {
                 })
                 pm25IntensityText.text = data.pm25?.toString()
                 pm10IntensityText.text = data.pm10?.toString()
+
+                pm25StatusText.text = "${data.pm25Status}(초미세먼지)"
+                pm10StatusText.text = "${data.pm10Status}(미세먼지)"
             }
         }).execute(URL(url))
     }
